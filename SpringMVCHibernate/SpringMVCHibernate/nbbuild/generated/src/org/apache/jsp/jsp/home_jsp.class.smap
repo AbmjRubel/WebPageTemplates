@@ -1,0 +1,15 @@
+SMAP
+home_jsp.java
+JSP
+*S JSP
+*F
++ 0 taglib_includes.jsp
+jsp/taglib_includes.jsp
++ 1 home.jsp
+jsp/home.jsp
+*L
+1,6:59
+1#1,4:64
+4:98,7
+4,10:70
+*E

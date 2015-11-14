@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/schoolmanagement?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">123</property>
+    <property name="hibernate.show_sql">true</property>
+    <mapping class="abm.jakaria.school.ContractusFormValidator"/>
+    <mapping class="abm.jakaria.school.ResultFormValidator"/>
+    <mapping class="abm.jakaria.school.Contractus"/>
+    <mapping class="abm.jakaria.school.EmployeeController"/>
+    <mapping class="abm.jakaria.school.Result"/>
+    <mapping class="abm.jakaria.school.EmployeeDao"/>
+    <mapping class="abm.jakaria.school.ResultDao"/>
+    <mapping class="abm.jakaria.school.StudentFormValidator"/>
+    <mapping class="abm.jakaria.school.ContractusDao"/>
+    <mapping class="abm.jakaria.school.StudentController"/>
+    <mapping class="abm.jakaria.school.CommiteeDao"/>
+    <mapping class="abm.jakaria.school.StudentDao"/>
+    <mapping class="abm.jakaria.school.ResultController"/>
+    <mapping class="abm.jakaria.school.CommiteeController"/>
+    <mapping class="abm.jakaria.school.Commitee"/>
+    <mapping class="abm.jakaria.school.Student"/>
+    <mapping class="abm.jakaria.school.ContractusController"/>
+    <mapping class="abm.jakaria.school.Employee"/>
+    <mapping class="abm.jakaria.school.CommiteeFormValidator"/>
+    <mapping class="abm.jakaria.school.EmployeeFormValidator"/>
+  </session-factory>
+</hibernate-configuration>
